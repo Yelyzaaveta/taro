@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Програмістське Таро & Руни</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Програмістське Таро & Руни</h1>
+
+    <div class="mode-switch">
+      <button class="mode-btn active" data-mode="tarot">Таро</button>
+      <button class="mode-btn" data-mode="runes">Руни</button>
+    </div>
+
+    <div id="tarot-section" class="section">
+      <p class="hint">Натисни на колоду, щоб витягнути карту</p>
+      <div class="card-wrapper" id="card-wrapper">
+        <div class="card" id="card">
+          <div class="card-face card-back">
+            <div class="card-back-ornament">
+              <div class="card-back-symbol">&#10053;</div>
+            </div>
+          </div>
+          <div class="card-face card-front" id="card-front">
+            <div class="card-numeral" id="card-numeral"></div>
+            <div class="card-symbol" id="card-symbol"></div>
+            <div class="card-title" id="card-title"></div>
+          </div>
+        </div>
+      </div>
+      <div id="tarot-result" class="result hidden"></div>
+    </div>
+
+    <div id="runes-section" class="section hidden">
+      <p class="hint">Натисни кнопку, щоб кинути руни</p>
+      <button class="throw-btn" id="throw-runes">Кинути руни</button>
+      <div id="runes-result" class="result hidden"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
