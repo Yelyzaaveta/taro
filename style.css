@@ -199,8 +199,8 @@ h1 {
 
 .result-name {
   text-align: center;
-  font-size: 1.15rem;
-  color: #c8a86e;
+  font-size: 1.3rem;
+  color: #a78443;
   margin-bottom: 12px;
   font-weight: bold;
 }
@@ -208,7 +208,7 @@ h1 {
 .result-meaning {
   line-height: 1.7;
   color: #b0a090;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 /* ===== RUNES ===== */
