@@ -1,0 +1,10 @@
+{
+  "name": "taro-cards",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve . -p $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
